@@ -58,7 +58,7 @@ imagenes se puede usar el comando
 docker-compose up -d
 ```
 
-![img_1.png](img_1.png)
+![img_1](https://user-images.githubusercontent.com/90010904/224202384-59ed7fa0-cde3-47e2-87e8-9a2a1401d1ac.png)
 
 una vez tenemos las diferentes imagenes estas se deben subir a Docker Hub para ello empleamos los siguientes
 2 comandos
@@ -70,21 +70,21 @@ docker push "nombreUsuario"/"nombreRepositorioDocker":latest
 
 Una vez tengamos esto en Docker Hub creamos una instacia nueva en AWS, donde configuramos los puertos
 
-![img_3.png](img_3.png)
+![img_3](https://user-images.githubusercontent.com/90010904/224202430-f91a7a49-f5b0-428e-8f8e-e5b65eed6b46.png)
 
 Accedemos a la terminal donde podremos emplear dichas imagenes para crear contenedores que corran
 nuestos servicios
 
-![img_2.png](img_2.png)
+![img_2](https://user-images.githubusercontent.com/90010904/224202463-9c42aba6-e091-434f-8e87-530c822c7c18.png)
 
 ### Pruebas
 
 En este caso accedemos al siguiente link: http://ec2-34-207-236-237.compute-1.amazonaws.com:45000
 Ingresamos una cadena y veremos lo siguiente: 
 
-![img.png](img.png)
+![img](https://user-images.githubusercontent.com/90010904/224202490-5468da52-07cf-470b-8155-99446c4ee1fb.png)
 
-![img_4.png](img_4.png)
+![img_4](https://user-images.githubusercontent.com/90010904/224202514-04647269-ce55-4cc6-9ea6-c7c2564ad654.png)
 
 ## Built With
 
